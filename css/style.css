@@ -1,0 +1,257 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+/* banner css */
+.img-gradient {
+    position:relative;
+    
+  }
+
+  #job
+  .img-gradient::after {
+    content: '';
+    position: absolute;
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6));
+  }
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #f7f7f7;
+  text-shadow: 2px 2px 2px black;
+}
+.bg-grey {
+  background-color: #f1f1f1;
+}
+
+
+/* nav */
+
+/* css phan nang cao */
+.spec>img{
+width: 157px;
+height: 157px;
+border: 10px solid #c3bebe;
+border-radius: 50%;
+position: absolute; 
+/* theo yeu cau nang cao */
+left: 688px;
+top: 755px;
+}
+.spec{
+    display: inline-block; 
+    /* theo yeu cau nav */
+}
+
+
+
+#nav-bar {
+ text-align: center;
+}
+nav.container{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.container > a{
+  width: 200px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+ .grid-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 20px;
+ list-style: none; 
+
+}
+
+/* #target{
+  padding-left: 1px;
+  text-align: left;
+  margin-top: 56px;
+  margin-left: 332px;
+} */
+/* ul{
+  list-style: none;
+  padding-left: 0;
+} */
+
+.section-content{
+  padding-top: 1px;
+}
+
+
+
+.job-content{
+  width: 100%;
+}
+.item-header{
+  display: grid;
+  grid-template-columns: 75% 25%;
+}
+
+.lever>span{
+  /* THEO YEU CAU PHAN 6 */
+background: #199cdb;
+display: inline-block;
+height: 2px;
+margin-right: 10px;
+width: 45px;
+}
+.job-content{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+}
+
+.hob-box{
+  display: grid;
+  grid-template-rows: auto auto auto auto; 
+  align-items: center;
+}
+
+.hob-two{
+  display: grid;
+  text-align: center;
+  grid-template-columns: auto auto auto auto;
+  align-items: center;
+}
+/* div.border{
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 50%;
+  background-color: antiquewhite;
+} */
+/* certificate */
+#certificate>.container{
+  width: 100%;
+}
+.roww>img{
+  width: 200px;
+  height: 100px;
+}
+.coll>img{
+  width: 400px;
+  height: 300px;
+  margin-right: 20px;
+}
+
+.roww{
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-gap: 5px;
+padding-bottom: 10px;
+}
+.col-section{
+  display: grid;
+ 
+}
+.coll{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.col-content{
+  display: inline-block;
+  height: 50%;
+}
+.col-content>span{
+  padding-left: 9px;
+  font-weight: bold;
+}
+
+#project>.container{
+  width: 100%;
+}
+.project-cont{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 400px);
+  grid-template-rows: 663px;
+  grid-gap: 10px;
+  justify-content: center;
+  
+}
+.project-box{
+  border: 1px solid #199cdb;
+}
+.project-box>img{
+  width: 100%;
+  height: 350px;
+}
+/* PROJECT */
+.project-title{
+  border-bottom: 1px solid #199cdb;
+}
+.project-title>h1{
+  text-align: center;
+}
+.box-logo{
+  text-align: center;
+  border-bottom: 1px solid #199cdb;
+  padding: 10px;
+}
+.box-logo>p{
+display: inline-block;
+border: 1px solid #199cdb;
+background-color: #199cdb;
+border-radius: 16px;
+padding: 6px 10px;
+color: #f1f1f1;
+}
+table{
+  width: 100%;
+}
+
+/* footer */
+.container-foot{
+
+}
+.container-foot>i{
+  color: #199cdb;
+}
+
+
+
+.per-icon{
+  margin-left: -6px;
+  color: #199cdb;
+}
+
+#one, tr, th{
+ 
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+#pjct{
+  font-size: 50px;
+  padding: 20px 30px;
+
+}
+#halo{
+  font-size: 50px;
+  padding: 20px 30px;
+
+}
+tr, td {
+  padding-top: 10px;
+}
+.container-foot{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,101 @@
+/* Phần 3 */
+@media (max-width: 768px) {
+   .none{
+    display: none;
+    /* 3.a */
+   }
+   .spec{
+    display: none;
+   }
+   .container>a{
+    font-size: 20px;
+    margin: 2px;
+   }
+
+   #job-info>.container{
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-gap: 30px;
+    justify-content: center;
+}
+}
+/* Phần 4 */
+@media (max-width:768px) {
+     #target{
+        margin-left: 27px;
+        text-align: left;
+    }
+    #about>.row>h1{
+        font-size: 20px;
+    }
+    #about>.row{
+        font-size: 13px;
+    }
+    #personal-info> ul{
+        padding-left: 0rem;
+    }
+    #personal-info{
+        margin-left: 27px;
+    }
+}
+
+@media (max-width:1489px
+) {
+    .none{
+        display: none;
+        /* 3.a */
+       }
+       .spec{
+        display: none;
+       }
+}
+/* phan5 */
+@media (max-width: 768px) {
+    .head{
+        margin: 4px 0px 0px 0px;
+    }
+    
+    .head>p{
+        padding-top: 0;
+
+    }
+    .ic-toolbox:before{
+        font-size: 40px;
+    }
+    .ic-tools-2:before{
+        font-size: 40px;
+    }
+    .ic-mic:before {
+        font-size: 45px;
+    }
+    .ic-pencil:before{
+        font-size: 40px;
+    }
+    .ic-telescope:before{
+        font-size: 40px;
+    }
+    .pd{
+        padding: 20px 0px 0px 10px;
+    }
+    #job-info>.container{
+     display: grid;
+     grid-template-columns: 300px 300px;
+     grid-gap: 30px;
+     justify-content: center;
+ }
+ /* phan6 */
+    .coll{
+     grid-template-columns: auto;   
+    }
+    .coll>img{
+        width: 100%;
+        height: 150px;
+    }
+    /* phan7 */
+    .project-cont{
+        grid-template-columns: repeat(3, auto);
+        grid-template-rows: auto;
+    }
+ }
+
+

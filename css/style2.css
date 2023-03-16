@@ -1,0 +1,98 @@
+
+
+#job-info>.container{
+    display: grid;
+    grid-template-columns: 470px 470px 470px;
+    grid-gap: 30px;
+    justify-content: center;
+}
+.job-item-md{
+    
+   
+}
+.head{
+    display: grid;
+    grid-template-columns: 75% 25%; 
+    margin: 30px 4px 20px 74px;   
+}
+.job-body{
+    width: 100%;
+   /*  */
+}
+.head>p{
+    padding-top: 44px;
+    
+    width: 75%;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+}
+.job-item-md>tr>th>h1{
+    display: inline-block;
+  
+}
+.job-icon{
+    width: 25%;
+    
+}
+
+.col{
+    display: inline-block; 
+     padding-bottom: 10px;
+}
+ul{
+    list-style: none
+    ;
+    width: 100%; 
+    padding: 0 74px 20px 74px;
+}
+.re{
+    padding-bottom: 10px;
+}
+
+.lever>span{
+background: #199cdb;
+display: inline-block;
+height: 2px;
+margin-right: 10px;
+width: 45px;
+}
+.lever>.gray{
+background: #bcbcbc;
+display: inline-block;
+height: 2px;
+margin-right: 10px;
+width: 45px
+}
+table.jj {
+    border-spacing: 10px;
+    text-align: center;
+}
+table>tr>td>i{
+
+}
+
+/* sizing */
+.pd{
+    padding: 0px 74px 0 74px;
+
+}
+.mg{
+    margin-bottom: 40px;
+}
+.ita{
+    font-style: italic;
+}
+
+table.tr{
+
+}
+
+#makeborder{
+    border-left: 3px solid #d6c08d;
+}
+#makeborderRow{
+    border-bottom: 3px solid #d6c08d;
+    padding-bottom: 10px;
+}

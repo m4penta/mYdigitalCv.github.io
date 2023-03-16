@@ -1,0 +1,62 @@
+/* phan 3 */
+@media (max-width: 600px) {
+    .spec{
+        display: none;
+    }
+    nav.container{
+        display: block;
+        /* 3.b */
+    }
+
+    .container>a{
+        display: block;
+        text-align: left;
+    }
+    
+*   {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+}
+
+/* Phần 5b */
+@media (max-width: 600px) {
+*   {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    #job-info>.container{
+        display: grid;
+        grid-template-columns: auto ;
+        grid-gap: 10px;
+        justify-content: center;
+    }
+    .pd{
+        padding: 50px 50px 50px 50px;
+    }
+
+    /* phan6 */
+    .roww{
+        grid-template-columns: auto;
+        
+
+    }
+    .coll{
+        border-bottom: 3px solid  #d6c08d; padding-bottom: 10px;
+    }
+    #makeborder{
+        border-left: none;
+    }
+    #makeborderRow{
+        border-bottom: none;
+    }
+    .coll>img{
+        height: 170px;
+    }
+    /* phan7 */
+    .project-cont{
+        grid-template-columns: auto;
+    }
+}
